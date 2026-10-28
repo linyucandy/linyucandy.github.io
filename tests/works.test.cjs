@@ -21,3 +21,10 @@ test('the fantasy introduction identifies its protagonist and offers no unpublis
   assert.doesNotMatch(page, /href="\/read\//);
   assert.match(page, /id="story"/);
 });
+
+test('the entrepreneurship note is discoverable and clearly separated from actual career history', () => {
+  const page = html('notes/linyu-device-doctor');
+  for (const phrase of ['创作幕后', '概念策划', '小说人物', '并非作者的创业履历']) assert.ok(page.includes(phrase), phrase);
+  assert.doesNotMatch(page, /本站整理的作品导读，依据《糖是凉的》阅读稿编写/);
+  for (const route of ['', 'archives', 'about']) assert.ok(html(route).includes('/notes/linyu-device-doctor/'), route);
+});

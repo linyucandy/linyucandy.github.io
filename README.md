@@ -33,7 +33,9 @@ npm run server
 | 原创 SVG 封面 | `themes/yuanguo/source/images/cover-sugar.svg` |
 | 《逆命纹章》SVG 封面 | `themes/yuanguo/source/images/cover-niming.svg` |
 
-新增手记可执行 `npx hexo new post "文章标题"`，编辑生成的 Markdown；可在 front matter 添加 `description` 和 `note_type`。现有三篇为根据作品阅读稿整理的导读，页面已标明来源，未冒充作者原始自述。
+新增手记可执行 `npx hexo new post "文章标题"`，编辑生成的 Markdown；可在 front matter 添加 `description` 和 `note_type`。已收录的三篇作品导读根据阅读稿整理，页面已标明来源，未冒充作者原始自述。
+
+“林屿创业”以 `/notes/linyu-device-doctor/` 创作幕后文章呈现，属于小说人物的情节探索与概念策划，未收录商业计划书、财务假设或真实创业成果。手记可用 `editorial_note` 声明具体创作背景；`featured: true` 会优先显示在首页的三个手记位置中。
 
 前两章逐段取自本地《糖是凉的》终校阅读稿。其他章节仅展示标题，未公开全文。开放新章节时，在 `source/read/` 添加 `layout: reading` 的页面，填写 `chapter`、`volume`、`reading_minutes`、`previous`、`next`，再更新作品目录和导航。当前的正文指纹检查保存在 `tests/chapter-hashes.json`，只有经确认的原文修订才应更新指纹。
 
