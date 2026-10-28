@@ -1,0 +1,10 @@
+<header class="site-header shell">
+  <a class="wordmark" href="/" aria-label="yuanguo 首页">yuanguo<span class="brand-dot">.</span></a>
+  <nav class="main-nav" aria-label="主导航">
+    <% const nav = [['/', '首页'], ['/works/', '作品'], ['/archives/', '手记'], ['/about/', '关于']]; %>
+    <% nav.forEach(([href, label]) => { const active = href === '/' ? is_home() : ('/' + page.path).startsWith(href); %>
+    <a href="<%= href %>"<%- active ? ' aria-current="page"' : '' %>><%= label %></a>
+    <% }); %>
+  </nav>
+  <button class="theme-toggle" data-theme-toggle type="button" aria-label="切换为深色主题" title="切换阅读主题" hidden><span aria-hidden="true">◐</span></button>
+</header>

@@ -1,0 +1,25 @@
+<section class="hero shell">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="tiny-line"></span> YUANGUO / 小说与故事</p>
+    <h1>把没说出口的，<br><span>写成故事。</span></h1>
+    <p class="hero-intro">关于沉默与靠近，关于失去与成长。<br>我是 yuanguo，欢迎来到我的文字世界。</p>
+    <div class="actions"><a class="button primary" href="/works/sugar-is-cold/">走进《糖是凉的》 <span aria-hidden="true">↗</span></a><a class="text-link" href="/about/">认识作者 <span aria-hidden="true">→</span></a></div>
+    <div class="hero-footnote"><span class="small-dot"></span> 从一颗橘子糖，开始一个故事。</div>
+  </div>
+  <a class="hero-art" href="/works/sugar-is-cold/" aria-label="了解小说《糖是凉的》">
+    <span class="art-number">第一部作品 / 01</span>
+    <div class="book-object"><img src="/images/cover-sugar.svg" alt="《糖是凉的》封面：一棵树、一枚橘子糖，米白与橘色的纸上意象" width="420" height="590" fetchpriority="high"></div>
+    <span class="art-caption"><span>一颗糖，收藏一段时光。</span><span aria-hidden="true">↗</span></span>
+  </a>
+</section>
+<div class="issue-strip shell"><span>故事里的微小事物</span><p>橘子糖 <i>·</i> 旧铁盒 <i>·</i> 梧桐树 <i>·</i> 四叶草</p><span class="strip-end">THE THINGS WE REMEMBER</span></div>
+<section class="section shell" aria-labelledby="works-title">
+  <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="works-title">故事，从这里开始</h2></div><a class="text-link" href="/works/">全部作品 <span aria-hidden="true">↗</span></a></div>
+  <article class="featured-work"><div class="work-index">01<span>小说 / 成长与情感</span></div><div class="work-copy"><h3><a href="/works/sugar-is-cold/">糖是凉的</a></h3><p>从姥姥家的橘子糖，到青春里没能说出口的话。林屿带着那些微小而漫长的记忆，一路走向远方，也走回自己。</p><div class="tags"><span>家庭</span><span>青春</span><span>记忆</span></div></div><a class="circle-link" href="/read/sugar/01/" aria-label="开始试读《糖是凉的》">↗</a></article>
+</section>
+<section class="notes-section"><div class="shell section"><div class="section-heading"><div><p class="eyebrow">BETWEEN THE LINES</p><h2>在故事的页边</h2></div><a class="text-link" href="/archives/">所有手记 <span aria-hidden="true">↗</span></a></div><div class="note-grid">
+  <% site.posts.sort('date', -1).limit(3).each(post => { %>
+    <article class="note-card"><p class="note-meta"><%= post.note_type || '创作手记' %><span><%= date(post.date, 'YYYY.MM.DD') %></span></p><h3><a href="<%= url_for(post.path) %>"><%= post.title %></a></h3><p><%= post.description || '翻到故事的另一面。' %></p><a class="note-more" href="<%= url_for(post.path) %>" aria-label="阅读：<%= post.title %>">阅读手记 <span aria-hidden="true">↗</span></a></article>
+  <% }); %>
+</div></div></section>
+<section class="closing shell"><p class="eyebrow">A NOTE TO THE READER</p><h2>有些故事，<br>值得慢一点读。</h2><p>留一点时间给文字，也给故事里的自己。</p><a class="text-link" href="/read/sugar/01/">从第一章读起 <span aria-hidden="true">→</span></a><span class="closing-mark" aria-hidden="true">文</span></section>

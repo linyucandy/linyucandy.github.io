@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><%= is_home() ? 'yuanguo · 小说与故事' : (page.title || '创作手记') + ' · yuanguo' %></title>
+  <meta name="description" content="<%= page.description || config.description %>">
+  <meta name="author" content="yuanguo">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:title" content="<%= page.title || 'yuanguo · 小说与故事' %>">
+  <meta property="og:description" content="<%= page.description || config.description %>">
+  <meta property="og:type" content="<%= page.layout === 'reading' || is_post() ? 'article' : 'website' %>">
+  <meta property="og:url" content="<%= config.url + '/' + page.path %>">
+  <meta property="og:image" content="<%= config.url %>/images/cover-sugar.svg">
+  <link rel="canonical" href="<%= config.url + '/' + page.path %>">
+  <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+  <script src="/js/preferences.js"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/main.js" defer></script>
+</head>
+<body class="<%= page.layout === 'reading' ? 'reading-page' : '' %>">
+  <a class="skip-link" href="#main">跳到正文</a>
+  <%- partial('_partial/header') %>
+  <main id="main"><%- body %></main>
+  <%- partial('_partial/footer') %>
+</body>
+</html>

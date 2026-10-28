@@ -1,0 +1,43 @@
+volumes:
+  - title: 卷一 · 甜与失
+    chapters:
+      - title: 第一章　姥姥的橘子糖
+        url: /read/sugar/01/
+      - title: 第二章　不说话的家
+        url: /read/sugar/02/
+      - title: 第三章　梧桐树下的男孩
+  - title: 卷二 · 第一颗糖
+    chapters:
+      - title: 第四章　她让我替她买糖
+      - title: 第五章　雾中的狐狸
+      - title: 间章一　远古·树与狐
+      - title: 第六章　“缘”与“分”
+  - title: 卷三 · 第二颗糖
+    chapters:
+      - title: 第七章　四叶草
+      - title: 第八章　趁热吃
+      - title: 第九章　不告而别
+      - title: 间章二　明宋·鱼与舟
+  - title: 卷四 · 不甜的五年
+    chapters:
+      - title: 第十章　铁与夜
+      - title: 第十一章　他买给自己的糖
+  - title: 卷五 · 归乡
+    chapters:
+      - title: 第十二章　父亲的诗集
+      - title: 第十三章　姥姥的铁盒
+      - title: 第十四章　树洞里的东西
+      - title: 间章三　镜中梦
+  - title: 卷六 · 糖是凉的
+    chapters:
+      - title: 第十五章　认领
+      - title: 第十六章　草莓味的
+  - title: 番外
+    chapters:
+      - title: 番外一　分
+      - title: 番外二　幸运的另一面
+      - title: 番外三　念念
+  - title: 附录
+    chapters:
+      - title: 主题曲歌词《糖是凉的》
+      - title: 作者的话
