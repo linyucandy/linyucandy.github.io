@@ -11,11 +11,12 @@
   <meta property="og:description" content="<%= page.description || config.description %>">
   <meta property="og:type" content="<%= page.layout === 'reading' || is_post() ? 'article' : 'website' %>">
   <meta property="og:url" content="<%= config.url + '/' + page.path %>">
-  <meta property="og:image" content="<%= config.url %>/images/cover-sugar.svg">
+  <% if (page.layout !== 'resume') { %><meta property="og:image" content="<%= config.url %>/images/cover-sugar.svg"><% } %>
   <link rel="canonical" href="<%= config.url + '/' + page.path %>">
   <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
   <script src="/js/preferences.js"></script>
   <link rel="stylesheet" href="/css/style.css">
+  <% if (page.layout === 'resume') { %><link rel="stylesheet" href="/css/resume.css"><script src="/js/resume.js" defer></script><% } %>
   <script src="/js/main.js" defer></script>
 </head>
 <body class="<%= page.layout === 'reading' ? 'reading-page' : '' %>">

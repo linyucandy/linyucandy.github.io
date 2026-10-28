@@ -22,6 +22,7 @@ npm run server
 | 内容 | 位置 |
 | --- | --- |
 | 作者介绍 | `source/about/index.md` |
+| 求职简历 | `source/resume/index.md` |
 | 手记文章 | `source/_posts/*.md` |
 | 作品目录与开放章节 | `source/_data/sugar.yml` |
 | 前两章试读 | `source/read/sugar/01/index.md`、`02/index.md` |
@@ -34,6 +35,8 @@ npm run server
 前两章逐段取自本地《糖是凉的》终校阅读稿。其他章节仅展示标题，未公开全文。开放新章节时，在 `source/read/` 添加 `layout: reading` 的页面，填写 `chapter`、`volume`、`reading_minutes`、`previous`、`next`，再更新作品目录和导航。当前的正文指纹检查保存在 `tests/chapter-hashes.json`，只有经确认的原文修订才应更新指纹。
 
 阅读支持深浅主题、17–26px 字号和上下章切换；偏好仅存于访客浏览器。未启用 JavaScript 时仍能浏览和阅读，无第三方字体、图片或运行时脚本依赖。
+
+求职简历位于 `/resume/`，署名统一为 yuanguo。历史资料据旧简历整理，追加本人确认的 2021—2023 年洲斯物联软件经理、2023 年至今南京沃旭 UWB / 无线 / EPD 系统开发经历。工作和项目内容维护于 `source/resume/index.md`；页面与打印排版分别位于 `themes/yuanguo/layout/resume.ejs` 和 `themes/yuanguo/source/css/resume.css`。页面提供“打印 / 保存 PDF”按钮，也可使用浏览器打印快捷键。原始简历及私人联系方式未收录到公开站点。
 
 ## GitHub Pages 发布
 
