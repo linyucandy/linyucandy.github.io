@@ -8,6 +8,8 @@
 @media(max-width:380px){.site-header{gap:11px}.main-nav{gap:13px}.wordmark{font-size:26px}.theme-toggle{width:29px;height:29px}.hero h1{font-size:29px}.hero .actions{gap:15px}.hero .button{font-size:11px}.issue-strip p{font-size:12px}.reader-top{gap:10px}.reading-badge{font-size:9px}.reader-toolbar{gap:10px}.reader-toolbar>div{gap:10px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
 /* Five navigation entries remain reachable without squeezing the wordmark on phones. */
+.bookshelf+.bookshelf,.featured-work+.featured-work{border-top:0}
+.work-story{padding-top:0}
 @media(max-width:760px){
   .site-header{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand theme" "nav nav";height:auto;gap:8px 18px;padding-block:16px 9px}
   .site-header>.wordmark{grid-area:brand;justify-self:start}

@@ -25,10 +25,13 @@ npm run server
 | 求职简历 | `source/resume/index.md` |
 | 手记文章 | `source/_posts/*.md` |
 | 作品目录与开放章节 | `source/_data/sugar.yml` |
+| 作品书架与首页推荐 | `source/_data/works.yml` |
+| 《逆命纹章》作品介绍 | `source/works/defiant-sigil/index.md` |
 | 前两章试读 | `source/read/sugar/01/index.md`、`02/index.md` |
 | 首页与作品页排版 | `themes/yuanguo/layout/` |
 | 颜色、排版与移动布局 | `themes/yuanguo/source/css/style.css` |
 | 原创 SVG 封面 | `themes/yuanguo/source/images/cover-sugar.svg` |
+| 《逆命纹章》SVG 封面 | `themes/yuanguo/source/images/cover-niming.svg` |
 
 新增手记可执行 `npx hexo new post "文章标题"`，编辑生成的 Markdown；可在 front matter 添加 `description` 和 `note_type`。现有三篇为根据作品阅读稿整理的导读，页面已标明来源，未冒充作者原始自述。
 

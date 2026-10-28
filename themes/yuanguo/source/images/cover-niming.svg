@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="590" viewBox="0 0 420 590" role="img" aria-labelledby="title desc">
+<title id="title">逆命纹章 · yuanguo</title><desc id="desc">深色封面上的金色纹章被一道裂隙穿过，象征命运与自由选择。</desc>
+<defs><linearGradient id="night" x2="1" y2="1"><stop stop-color="#17252d"/><stop offset="1" stop-color="#0c141b"/></linearGradient><linearGradient id="gold" x2="0" y2="1"><stop stop-color="#e7d8aa"/><stop offset="1" stop-color="#a77b48"/></linearGradient><pattern id="grain" width="9" height="11" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".4" fill="#d8c08e" opacity=".18"/><circle cx="6" cy="9" r=".3" fill="#d8c08e" opacity=".12"/></pattern></defs>
+<path fill="url(#night)" d="M0 0h420v590H0z"/><path fill="url(#grain)" d="M0 0h420v590H0z"/>
+<path d="M23 24h374v542H23z" stroke="#a08557" stroke-width=".7" fill="none" opacity=".6"/><path d="M34 35h352v520H34z" stroke="#a08557" stroke-width=".5" fill="none" opacity=".25"/>
+<text x="210" y="72" text-anchor="middle" font-family="Georgia,serif" font-size="9" letter-spacing="4" fill="#baa87b">A FANTASY NOVEL</text>
+<text x="210" y="145" text-anchor="middle" font-family="SimSun,Songti SC,serif" font-size="49" letter-spacing="7" fill="#e4d4ac">逆命纹章</text>
+<path d="M160 174h100" stroke="#9e7f4e"/><circle cx="210" cy="174" r="3" fill="#d4b47b"/>
+<g transform="translate(210 326)" stroke="url(#gold)" fill="none"><circle r="105" stroke-width="1" opacity=".65"/><circle r="91" stroke-width=".6" stroke-dasharray="2 9"/><path d="M0-121l17 29-17 17-17-17zM0 121l17-29-17-17-17 17zM-121 0l29-17 17 17-17 17zM121 0l-29-17-17 17 17 17z" stroke-width="1.2"/><path d="M0-77L67 39H-67zM0 77L67-39H-67z" stroke-width="1.5"/><circle r="48" stroke-width="1"/><path d="M0-34l23 34L0 34-23 0zM0-34v68M-23 0h46" stroke-width="2"/><path d="M-74-74l13 13m-13 135l13-13M74-74L61-61m13 135L61 61" stroke-width="1"/></g>
+<path d="M258 207l-41 71 17 29-34 38 10 34-51 75" stroke="#111d25" stroke-width="13" fill="none"/><path d="M258 207l-41 71 17 29-34 38 10 34-51 75" stroke="#c88e60" stroke-width="1.4" fill="none"/>
+<text x="210" y="501" text-anchor="middle" font-family="SimSun,Songti SC,serif" font-size="12" letter-spacing="3" fill="#baa87b">命运写在身上，选择握在手里。</text><text x="210" y="534" text-anchor="middle" font-family="Georgia,serif" font-size="13" letter-spacing="3" fill="#dfcda4">yuanguo 著</text>
+</svg>
