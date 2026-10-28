@@ -38,6 +38,8 @@ npm run server
 
 求职简历位于 `/resume/`，署名统一为 yuanguo。历史资料据旧简历整理，追加本人确认的 2021—2023 年洲斯物联软件经理、2023 年至今南京沃旭 UWB / 无线 / EPD 系统开发经历。工作和项目内容维护于 `source/resume/index.md`；页面与打印排版分别位于 `themes/yuanguo/layout/resume.ejs` 和 `themes/yuanguo/source/css/resume.css`。页面提供“打印 / 保存 PDF”按钮，也可使用浏览器打印快捷键。原始简历及私人联系方式未收录到公开站点。
 
+简历产品与岗位资料的核对依据见 [调研与匹配说明](docs/resume-research-2026-10-29.md)。企业公开资料只用于描述产品背景；个人职责、芯片平台及成果应由本人确认后填写。
+
 ## GitHub Pages 发布
 
 工作流位于 `.github/workflows/pages.yml`，推送到 `main` 后使用 Node 22 和 `npm ci` 构建，运行测试，然后通过 GitHub 官方 Pages Actions 发布 `public/`。

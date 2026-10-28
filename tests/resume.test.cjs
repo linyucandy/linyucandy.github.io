@@ -11,7 +11,7 @@ test('resume uses yuanguo and includes the confirmed current employment', () => 
   assert.match(html, /<h1[^>]*>yuanguo/);
   assert.match(html, /履历更新于 2026 年 10 月/);
   assert.doesNotMatch(html, /2021(?:\.04)?\s*[—–-]\s*至今/);
-  for (const fact of ['南京沃旭', '2023—至今', '2021—2023', '软件经理', 'UWB', 'EPD', 'BMC', 'OpenBMC', 'Yocto', 'IPMI', 'MSP430', 'ESC/POS', '中山大学', '行政管理', 'QE/PE']) {
+  for (const fact of ['南京沃旭', '2023—至今', '2021—2023', '软件经理', 'UWB', 'EPD', 'BMC', 'OpenBMC', 'Yocto', 'IPMI', 'MSP430', 'ESC/POS', '中山大学', '行政管理', 'QE/PE', '终端固件', '基站/网关', '无线协议', 'STM32F407', 'STM32H743', 'Apollo', 'Nordic', 'OM6626', 'OM6629', 'DW1000', 'DW3000', 'MK8000']) {
     assert.ok(visibleText.includes(fact), 'Missing resume fact: ' + fact);
   }
   assert.doesNotMatch(html, /href="[^\"]*\.(?:docx?|zip)"|href="tel:/);
