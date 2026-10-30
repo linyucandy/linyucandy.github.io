@@ -5,9 +5,11 @@
   if (themeButton) {
     const updateLabel = () => {
       const dark = root.dataset.theme === 'dark';
-      themeButton.setAttribute('aria-label', dark ? '切换为浅色主题' : '切换为深色主题');
+      const en = root.lang === 'en';
+      const label = en ? (dark ? 'Switch to light theme' : 'Switch to dark theme') : (dark ? '切换为浅色主题' : '切换为深色主题');
+      themeButton.setAttribute('aria-label', label);
       themeButton.setAttribute('aria-pressed', String(dark));
-      themeButton.title = dark ? '切换为浅色主题' : '切换为深色主题';
+      themeButton.title = label;
     };
     themeButton.hidden = false;
     updateLabel();

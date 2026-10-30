@@ -6,11 +6,11 @@ const vm = require('node:vm');
 const themeRoot = path.resolve(__dirname, '../themes/yuanguo/source');
 
 // A small DOM fixture exercises the shipped scripts without adding a browser dependency.
-function loadReader(storage = new Map(), blocked = false) {
+function loadReader(storage = new Map(), blocked = false, lang = 'zh-CN') {
   const element = extra => ({ hidden: true, style: {}, attributes: {}, handlers: {}, dataset: {},
     setAttribute(name, value) { this.attributes[name] = value; },
     addEventListener(name, callback) { this.handlers[name] = callback; }, ...extra });
-  const root = { dataset: { theme: 'light' } };
+  const root = { lang, dataset: { theme: 'light' } };
   const toggle = element();
   const minus = element({ dataset: { font: '-1' } });
   const plus = element({ dataset: { font: '1' } });
@@ -61,6 +61,18 @@ test('restricted storage and invalid preferences do not break reading controls',
   const invalid = loadReader(new Map([['yuanguo-font-size', 'NaN'], ['yuanguo-theme', 'unexpected']]));
   assert.equal(invalid.reader.style.fontSize, '20px');
   assert.equal(invalid.root.dataset.theme, 'light');
+});
+
+test('English theme controls keep English labels when toggled and restored', () => {
+  const storage = new Map();
+  const first = loadReader(storage, false, 'en');
+  assert.equal(first.toggle.attributes['aria-label'], 'Switch to dark theme');
+  first.toggle.handlers.click();
+  assert.equal(first.toggle.attributes['aria-label'], 'Switch to light theme');
+  assert.equal(first.toggle.title, 'Switch to light theme');
+  const restored = loadReader(storage, false, 'en');
+  assert.equal(restored.root.dataset.theme, 'dark');
+  assert.equal(restored.toggle.attributes['aria-label'], 'Switch to light theme');
 });
 
 test('reading progress is clamped at the start and end of the chapter', () => {

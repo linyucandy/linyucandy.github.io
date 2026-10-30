@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="light">
+<html lang="<%= page.lang || 'zh-CN' %>" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,10 @@
   <meta property="og:url" content="<%= config.url + '/' + page.path %>">
   <% if (page.layout !== 'resume') { %><meta property="og:image" content="<%= config.url + (page.cover || '/images/cover-sugar.svg') %>"><% } %>
   <link rel="canonical" href="<%= config.url + '/' + page.path %>">
+  <% if (page.layout === 'resume') { %>
+  <link rel="alternate" hreflang="zh-CN" href="<%= config.url %>/resume/">
+  <link rel="alternate" hreflang="en" href="<%= config.url %>/resume/en/">
+  <% } %>
   <link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
   <script src="/js/preferences.js"></script>
   <link rel="stylesheet" href="/css/style.css">
@@ -20,7 +24,7 @@
   <script src="/js/main.js" defer></script>
 </head>
 <body class="<%= page.layout === 'reading' ? 'reading-page' : '' %>">
-  <a class="skip-link" href="#main">跳到正文</a>
+  <a class="skip-link" href="#main"><%= page.lang === 'en' ? 'Skip to content' : '跳到正文' %></a>
   <%- partial('_partial/header') %>
   <main id="main"><%- body %></main>
   <%- partial('_partial/footer') %>

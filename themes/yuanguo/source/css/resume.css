@@ -7,6 +7,7 @@
   border-bottom: 1px solid var(--line);
 }
 .resume-heading { min-width: 0; }
+html[lang="en"] .resume-actions { flex-shrink: 1; }
 .resume-heading h1 { font-family: Georgia, serif; font-size: 76px; letter-spacing: -3px; margin-block: 10px 8px; }
 .resume-role { font-size: 21px; color: var(--olive); line-height: 1.7; }
 .resume-intro { font-size: 14px; color: var(--muted); line-height: 2; margin-top: 15px; }

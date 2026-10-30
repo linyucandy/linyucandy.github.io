@@ -1,5 +1,6 @@
+<% const en = page.lang === 'en'; %>
 <footer class="site-footer shell">
-  <div><a class="wordmark small" href="/">yuanguo<span class="brand-dot">.</span></a><p>小说与故事，慢慢写，也慢慢读。</p></div>
-  <div class="footer-links"><a href="/works/">作品书架</a><a href="/resume/">求职简历</a><a href="/about/">关于作者</a><a href="https://github.com/linyucandy/linyucandy.github.io" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-  <p class="copyright">© <%= new Date().getFullYear() %> yuanguo<br>文字与故事，保留所有权利。</p>
+  <div><a class="wordmark small" href="/">yuanguo<span class="brand-dot">.</span></a><p><%= en ? 'Novels and stories. Time to write, time to read.' : '小说与故事，慢慢写，也慢慢读。' %></p></div>
+  <div class="footer-links"><a href="/works/"><%= en ? 'Works' : '作品书架' %></a><a href="<%= en ? '/resume/en/' : '/resume/' %>"><%= en ? 'Resume' : '求职简历' %></a><a href="/about/"><%= en ? 'About the author' : '关于作者' %></a><a href="https://github.com/linyucandy/linyucandy.github.io" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+  <p class="copyright">© <%= new Date().getFullYear() %> yuanguo<br><%= en ? 'Words and stories. All rights reserved.' : '文字与故事，保留所有权利。' %></p>
 </footer>
