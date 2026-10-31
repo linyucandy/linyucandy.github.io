@@ -28,13 +28,19 @@ npm run server
 | 作品目录与开放章节 | `source/_data/sugar.yml` |
 | 作品书架与首页推荐 | `source/_data/works.yml` |
 | 《逆命纹章》作品介绍 | `source/works/defiant-sigil/index.md` |
+| 《糖是凉的2》作品介绍 | `source/works/sugar-is-cold-2/index.md` |
+| 《同一颗星》作品介绍（本地 3P 项目） | `source/works/the-same-star/index.md` |
 | 前两章试读 | `source/read/sugar/01/index.md`、`02/index.md` |
 | 首页与作品页排版 | `themes/yuanguo/layout/` |
 | 颜色、排版与移动布局 | `themes/yuanguo/source/css/style.css` |
 | 原创 SVG 封面 | `themes/yuanguo/source/images/cover-sugar.svg` |
 | 《逆命纹章》SVG 封面 | `themes/yuanguo/source/images/cover-niming.svg` |
+| 《糖是凉的2》SVG 封面 | `themes/yuanguo/source/images/cover-sugar-2.svg` |
+| 《同一颗星》SVG 封面 | `themes/yuanguo/source/images/cover-same-star.svg` |
 
 新增手记可执行 `npx hexo new post "文章标题"`，编辑生成的 Markdown；可在 front matter 添加 `description` 和 `note_type`。已收录的三篇作品导读根据阅读稿整理，页面已标明来源，未冒充作者原始自述。
+
+作品书架收录四部作品，每部均有独立封面。《糖是凉的2》按本地创作资料与前三章初稿整理介绍；本地 `3P` 项目以正式书名《同一颗星》展示，按作品总览、人物档案与初稿状态整理。两部仅公开介绍，不将本地正文、大纲结局或改编工作文件作为网站资源发布。通用作品页使用 `source/_data/works.yml` 中的题材、介绍、状态与封面字段。
 
 “林屿创业”以 `/notes/linyu-device-doctor/` 创作幕后文章呈现，属于小说人物的情节探索与概念策划，未收录商业计划书、财务假设或真实创业成果。手记可用 `editorial_note` 声明具体创作背景；`featured: true` 会优先显示在首页的三个手记位置中。
 

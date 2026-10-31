@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="590" viewBox="0 0 420 590" role="img" aria-labelledby="title desc">
+  <title id="title">糖是凉的2 · yuanguo</title>
+  <desc id="desc">纸色封面上，一扇南京雨夜的窗，一盏亮着的工作灯与桌边的空椅，连接工程、创业与日常生活。</desc>
+  <defs>
+    <linearGradient id="window" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#274a4e"/><stop offset="1" stop-color="#102d34"/></linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f2cb83" stop-opacity=".55"/><stop offset="1" stop-color="#e7c48c" stop-opacity=".02"/></linearGradient>
+    <pattern id="paper" width="9" height="11" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".45" fill="#898773" opacity=".17"/><circle cx="7" cy="8" r=".35" fill="#898773" opacity=".12"/></pattern>
+    <clipPath id="frame"><path d="M42 220h336v262H42z"/></clipPath>
+  </defs>
+  <path fill="#eee9db" d="M0 0h420v590H0z"/><path fill="url(#paper)" d="M0 0h420v590H0z"/>
+  <path d="M20 0v590" stroke="#c3bca9" stroke-opacity=".5"/>
+  <path d="M42 38h28" stroke="#b16e42" stroke-width="2"/>
+  <text x="42" y="67" fill="#667268" font-family="Georgia,serif" font-size="9" letter-spacing="3">A NOVEL BY YUANGUO</text>
+  <text x="39" y="136" fill="#284644" font-family="SimSun,Songti SC,serif" font-size="48" letter-spacing="4">糖是凉的2</text>
+  <text x="43" y="168" fill="#9b6b45" font-family="SimSun,Songti SC,serif" font-size="15" letter-spacing="5">有人应答</text>
+  <text x="43" y="192" fill="#738078" font-family="Georgia,serif" font-size="9" letter-spacing="2.5">SUGAR IS COLD II</text>
+  <g clip-path="url(#frame)">
+    <path fill="url(#window)" d="M42 220h336v262H42z"/>
+    <circle cx="325" cy="261" r="30" fill="#a2afa0" opacity=".09"/>
+    <g fill="#365258"><path d="M42 347h34v-38h30v25h31v-48h32v61h27v-29h38v17h27v-49h34v30h30v-20h53v105H42z"/></g>
+    <g fill="#dbb576" opacity=".65"><path d="M85 322h4v7h-4zm45 30h4v7h-4zm28-50h4v7h-4zm89 46h4v7h-4zm25-41h4v7h-4zm65 13h4v7h-4z"/></g>
+    <g stroke="#a1b9b6" stroke-width=".8" opacity=".3"><path d="M67 231l-7 32m44-25-9 43m49-40-6 28m45-29-8 39m49-45-6 30m42-30-8 37m50-31-7 32m46-32-8 38m-273 6-6 28m43-17-8 36m46-31-6 28m42-15-7 33m49-34-8 38m49-23-7 31m43-26-7 32m46-24-5 25"/></g>
+    <path d="M42 379h336M208 220v159" stroke="#132e32" stroke-width="7"/>
+    <path d="M42 388h336v94H42z" fill="#bcaa86"/>
+    <path d="M42 402h336" stroke="#8a806a"/>
+    <path d="M291 315l56 94H211z" fill="url(#light)"/>
+    <g stroke="#bcbd9f" stroke-width="3" fill="none"><path d="M329 393h-39m19 0v-41l-21-42"/><path d="M274 309l18-10 20 25-37 11z" fill="#d7c397" stroke-width="1.5"/></g>
+    <path d="M278 333l31-9" stroke="#f3dc9e" stroke-width="3"/>
+    <g transform="translate(97 398) rotate(-7)"><path d="M0 0h94v47H0z" fill="#eae3ce"/><path d="M12 10h49m-49 8h69m-69 8h61m-61 8h34" stroke="#929c8e" stroke-width="1"/><path d="M75 7l5 6 8-12" fill="none" stroke="#8c9b7d" stroke-width="1.2"/></g>
+    <path d="M229 423h47v28h-47z" fill="#6b7c70"/><path d="M224 453h57m-48 0-5 29m45-29 5 29" fill="none" stroke="#344b48" stroke-width="3"/>
+    <path d="M43 473h335v9H43z" fill="#728174" opacity=".35"/>
+  </g>
+  <text x="42" y="528" fill="#5f6f63" font-family="SimSun,Songti SC,serif" font-size="11" letter-spacing="2">把回应，变成可以依靠的行动。</text>
+  <text x="42" y="559" fill="#8c7257" font-family="Georgia,serif" font-size="12" letter-spacing="2">yuanguo 著</text>
+  <path d="M357 534v27m6-27v27" stroke="#aca58f" stroke-width="1"/>
+</svg>

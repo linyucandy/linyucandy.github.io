@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="590" viewBox="0 0 420 590" role="img" aria-labelledby="title desc">
+  <title id="title">同一颗星 · yuanguo</title>
+  <desc id="desc">蓝灰暮色与微光中，一颗金星悬在被删改的十六行清单上方，讲述技术、署名与人的去向。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#192b40"/><stop offset=".6" stop-color="#394455"/><stop offset="1" stop-color="#8f7771"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#f4d7a5" stop-opacity=".28"/><stop offset="1" stop-color="#f4d7a5" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ded7c7"/><stop offset="1" stop-color="#b7b7ae"/></linearGradient>
+    <pattern id="grain" width="8" height="10" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".4" fill="#d5d7cb" opacity=".14"/><circle cx="6" cy="8" r=".3" fill="#d5d7cb" opacity=".12"/></pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h420v590H0z"/><path fill="url(#grain)" d="M0 0h420v590H0z"/>
+  <path d="M27 28h366v534H27z" stroke="#b5b9b0" fill="none" stroke-width=".6" opacity=".38"/>
+  <path d="M42 40h28" stroke="#d3b58b" stroke-width="2"/>
+  <text x="42" y="69" fill="#b8bfbc" font-family="Georgia,serif" font-size="9" letter-spacing="3">A NOVEL BY YUANGUO</text>
+  <text x="39" y="139" fill="#f0e8d5" font-family="SimSun,Songti SC,serif" font-size="49" letter-spacing="6">同一颗星</text>
+  <text x="43" y="171" fill="#c1b5a7" font-family="Georgia,serif" font-size="10" letter-spacing="4">THE SAME STAR</text>
+  <path d="M42 199h336" stroke="#a6aaa7" stroke-width=".5" opacity=".35"/>
+  <circle cx="299" cy="235" r="57" fill="url(#halo)"/>
+  <path d="M299 222l2.7 10.3L312 235l-10.3 2.7L299 248l-2.7-10.3L286 235l10.3-2.7z" fill="#e8d5ad"/>
+  <circle cx="299" cy="235" r="2.8" fill="#fff7dd"/>
+  <path d="M72 281c43-46 105-66 167-58" fill="none" stroke="#b9bbad" stroke-width=".7" stroke-dasharray="2 6" opacity=".45"/>
+  <g transform="translate(106 267) rotate(7 104 101)">
+    <path d="M8 9h199v190H8z" fill="#121f2f" opacity=".3"/>
+    <path d="M0 0h199v190H0z" fill="url(#sheet)"/>
+    <path d="M17 0v190" stroke="#939f9d" stroke-width=".7" opacity=".6"/>
+    <text x="29" y="21" fill="#495b60" font-family="monospace" font-size="8" letter-spacing="1">checklist.txt</text>
+    <g fill="none" stroke="#53656b" stroke-width=".7" opacity=".85">
+      <path d="M30 32h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4zm0 9h4v4h-4z"/>
+      <path d="M43 34h119m-119 9h98m-98 9h133m-133 9h109m-109 9h126m-126 9h96m-96 9h131m-131 9h112m-112 9h122m-122 9h100m-100 9h129m-129 9h110m-110 9h126m-126 9h92m-92 9h132m-132 9h117"/>
+    </g>
+    <path d="M39 61l127-1m-129 56 120-2m-117 27 133 3" stroke="#946655" stroke-width="1.7" opacity=".75"/>
+    <path d="M120 177h60" stroke="#53656b" stroke-width=".7"/><path d="M119 176l64 4" stroke="#7c5e54" stroke-width="1.8"/>
+    <path d="M174 0h25v25z" fill="#f0e9d6" opacity=".6"/>
+  </g>
+  <path d="M55 480h307" stroke="#aeb3ac" stroke-width=".6" opacity=".45"/>
+  <text x="42" y="514" fill="#c5c6b8" font-family="SimSun,Songti SC,serif" font-size="11" letter-spacing="2">关于技术、名字与人的去向</text>
+  <text x="42" y="545" fill="#e0d3b9" font-family="Georgia,serif" font-size="12" letter-spacing="2">yuanguo 著</text>
+  <text x="378" y="545" text-anchor="end" fill="#b2b9b4" font-family="monospace" font-size="9" letter-spacing="1">01—16</text>
+</svg>
